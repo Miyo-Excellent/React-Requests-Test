@@ -1,5 +1,5 @@
-# Pufi
-## **Es un mini-proyecto de prueba que consiste en una vista home de presentación de productos, la cual tiene que integrar:**
+# React Request Test
+## **Es un ejercicion que tiene como finalidad plasmar en el cliente los datos que se realiazan atrave de peticiones HTTP/HTTPS:**
 
 ### ¿Cómo inicializar el proyecto?
 [**"Es requerido tener instalado node.js en el ordenador"**]
@@ -9,8 +9,8 @@
 
 
 **Sistemas UNIX (Ubuntu, feedora, centos, mac, otros):**
-> 1. `sudo npm i`
-> 2. `Sudo npm run start`
+> 1. `npm i`
+> 2. `npm run start`
 
 		NOTA: para el correcto funcionamiento en sistemas operativos basado en UNIX es necesario que le cambien el nombre al archive package.UNIX.json a package.json. tener en cuenta que el package.json que ya existe, es el package.WINDOWS.json, es decir, para el sistemas operativos Windows
 
@@ -23,7 +23,6 @@
 ### Adaptación a dispositivos móviles
 + Tecnologías:
 	+ SASS
-	+ Font Awesome
 
 ---
 
@@ -31,6 +30,7 @@
 + Tecnologías:
 	+ Node.js
 	+ Express.js
+  + Axios.js
 
 ---
 
@@ -48,7 +48,7 @@
 
 ### API REST
 + Express
-+ Passport
++ Axios
 + Body-Parser
 + Otras
 
@@ -66,7 +66,3 @@
 
 + #### Esta aplicación debe hacer uso de la librería axios.js para facilitar las peticiones realizadas a los servidores.
 	+ Implementado con Express y Axios, puede estar basado en promesas
-
----
-### [**Diseño inicial del proyecto**](https://github.com/Miyo-Excellent/PUFI/blob/Pufi/documentation/design/Pufi.jpg)
-![Diseño inicial del proyecto](https://raw.githubusercontent.com/Miyo-Excellent/PUFI/Pufi/documentation/design/Pufi.jpg?raw=true)
