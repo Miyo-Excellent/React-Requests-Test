@@ -1,0 +1,16 @@
+// Rests
+@import './rests/customRests';
+
+// Globals
+@import './globals/mixins';
+@import './globals/placeholders';
+@import './globals/vars';
+
+// Mixins
+
+// Libreries
+
+.home {
+    width: 100vw;
+    height: 100vh;
+}
